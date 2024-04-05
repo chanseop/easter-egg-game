@@ -1,39 +1,27 @@
-# Next.js & NextUI Template
+# Easter-Egg-Game
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+프론트엔드 개발자가 숨겨놓은 이스터에그를 찾는 웹 게임입니다.
 
-## Technologies Used
+## Technologies
 
-- [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+- Next.js 13
+- NextUI v2
+- Tailwind CSS
+- Tailwind Variants
+- TypeScript
+- Framer Motion
+- next-themes
 
 ## How to Use
-
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
 ```
+git clone <url>
 
-### Install dependencies
-
-```bash
 npm install
-```
 
-### Run the development server
-
-```bash
 npm run dev
 ```
+
+
 
 ## License
 
