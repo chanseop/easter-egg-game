@@ -33,7 +33,8 @@ function FooterModal() {
         onPress={onOpen}
         className="max-w-fit bg-none bg-white dark:bg-black cursor-default"
       >
-        made by 스파로스 3기 <p className="font-bold">의문에 프론트엔드 고수</p>
+        made by 스파로스 3기{" "}
+        <p className="font-bold cursor-pointer">의문의 프론트엔드 고수</p>
       </Button>
       <Modal isOpen={isOpen} placement={"bottom"} onOpenChange={onOpenChange}>
         <ModalContent>

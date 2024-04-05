@@ -12,7 +12,7 @@ function page() {
       </div>
 
       <div className="flex gap-2 text-[4rem] text-white dark:text-black cursor-text text-center">
-        이스터에그 #7
+        이스터에그 #6
       </div>
     </section>
   );
