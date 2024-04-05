@@ -10,7 +10,6 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    screens: { "3xl": "3600px" },
   },
   darkMode: "class",
   plugins: [nextui()],
