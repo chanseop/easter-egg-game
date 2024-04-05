@@ -12,6 +12,7 @@ function Information() {
         setOpen(true);
       });
     }
+    localStorage.setItem("EasterEgg#9", "EasterEgg#9");
   }, []);
 
   return (

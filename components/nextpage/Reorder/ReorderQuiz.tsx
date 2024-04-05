@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { Reorder } from "framer-motion";
 import { Item } from "./Item";
-import { Logo } from "../icons";
+import { Logo } from "../../icons";
 
 const initialItems = ["🍅 토마토", "🧀 치즈", "🍞 빵"];
 function ReorderQuiz() {
@@ -30,7 +30,8 @@ function ReorderQuiz() {
         <>
           <h2 className="text-[2rem]  font-bold">미니게임</h2>
           <p className="text-[#696969] mb-2">
-            순서를 조합해서 정답을 찾으시오.
+            순서를 조합해서 정답을 찾으시오. 상황에 따라서 여러개가 움직일 수
+            있습니다.
           </p>
           <Reorder.Group
             className="border-2 border-gray-200 rounded-md p-4 w-full mx-auto bg-black shadow-md"
